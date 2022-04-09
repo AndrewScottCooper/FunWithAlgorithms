@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="SortButton" Content="Bubble Sort" HorizontalAlignment="Left" Height="28" Margin="10,384,0,0" VerticalAlignment="Top" Width="146" Click="SortButton_Click"/>
+        <RichTextBox x:Name="ListTextBox" HorizontalAlignment="Left" Height="332" Margin="10,33,0,0" VerticalAlignment="Top" Width="767">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="MergeSortBtn" Content="Merge Sort" HorizontalAlignment="Left" Height="28" Margin="177,384,0,0" VerticalAlignment="Top" Width="146" Click="MergeSortBtn_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="354,384,0,0" VerticalAlignment="Top" Width="146"/>
     </Grid>
 </Window>
